@@ -1,0 +1,32 @@
+{
+  "name": "swagger-ui-example",
+  "version": "0.0.1",
+  "description": "Example usage of Swagger-UI using in JSON & YAML",
+  "scripts": {
+    "dev": "yarn dev:json",
+    "dev:json": "nodemon --watch blueprint.json index-json.js",
+    "dev:yaml": "nodemon --watch blueprint.yaml index-yaml.js",
+    "start": "yarn start:json",
+    "start:json": "node index-json.js",
+    "start:yaml": "node index-yaml.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jochristianto/swagger-ui-example.git"
+  },
+  "keywords": [
+    "api",
+    "swagger"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jochristianto/swagger-ui-example/issues"
+  },
+  "homepage": "https://github.com/jochristianto/swagger-ui-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "swagger-ui-express": "^4.1.4",
+    "yamljs": "^0.3.0"
+  }
+}
