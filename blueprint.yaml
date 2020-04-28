@@ -1,8 +1,8 @@
 openapi: 3.0.1
 info:
-  description: API Documentation for Wowrack's Alpha
+  description: API Documentation Example
   version: 0.0.1
-  title: Wowswag
+  title: Swag
 servers:
   - url: http://localhost:8080
     description: Local Server
