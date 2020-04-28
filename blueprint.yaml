@@ -2,7 +2,7 @@ openapi: 3.0.1
 info:
   description: API Documentation Example
   version: 0.0.1
-  title: Swag
+  title: Swagger
 servers:
   - url: http://localhost:8080
     description: Local Server
